@@ -303,3 +303,22 @@ const resolveFetch = () => {
 };
 
 resolveFetch().then(animationTimeline());
+<script>
+
+      
+
+var audioElement = document.getElementById("background-music");
+
+
+       
+ if (typeof(audioElement.autoplay) !== 'undefined' && audioElement.autoplay === false) {
+
+      window.onload = function() {
+
+        audioElement.play();
+
+          };
+
+        }
+
+</script>
